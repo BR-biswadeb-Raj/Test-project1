@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header-content{
+    width: 100%;
+    display:flex;
+
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px;
+    margin-top: 3px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+
+
+
+}
+.header-content:hover{
+    background: darkslategray;
+
+    color: white;
+}
+.title{
+
+}
+.title h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+}
+.title h1:hover{
+    color: white;
+}
+
+.nav{
+    padding: 10px;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 35px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav ul li a:hover{
+    color: white;
+
+}
+.containter{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background:lightgoldenrodyellow;
+}
+.about-title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+}
+.about-title h1{
+    text-align: center;
+    margin-top: 25px;
+}
+.about{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.about p{
+    width: 50%;
+
+
+    padding: 25px;
+    margin-left:100px ;
+
+
+    text-align: justify;
+
+    line-height: 1.5em;
+
+
+
+}
+.about button{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    background: navy;
+    border-radius: 25px;
+
+}
+.about button a{
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: white;
+
+}
+.about button a:hover{
+
+
+
+    box-shadow: 2px 4px 8px rgba(0,0 ,0 , 0.5);
+
+
+
+}
+.gallery{
+    padding: 25px;
+}
+.pic{
+    width: 700px;
+
+    display:block;
+    margin: 2px;
+
+
+
+
+}
+.pic img{
+    display: block;
+    width: 220px;
+    height: 200px;
+    margin: 2px;
+
+    top: 38.5%;
+    right: 200px;
+    z-index: 1;
+    float: right;
+
+}
+
+.business-area{
+    background: silver;
+
+    height: 500px;
+
+    box-sizing: border-box;
+
+
+}
+.our{
+    padding: 25px;
+}
+.our h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: navy;
+}
+.crad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 3px 6px 10px rgba(0,0,0,0.7);
+    box-shadow: 5px;
+    box-sizing: border-box;
+}
+.box h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+
+}
+.strengths{
+    height: 500px;
+    position: relative;
+
+
+
+}
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    position: relative;
+}
+.key h1{
+    font-size: 30px;
+    color: navy;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pergentage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 25px;
+}
+.per{
+    margin: 20px;
+
+}
+.per i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.per h1{
+    text-align: center;
+    font-size: 40px;
+    color: navy;
+    letter-spacing: 2px;
+}
+.per h3{
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+.footer-conainter{
+    display: flex;
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding:50px;
+    background: #000000;
+
+    flex-wrap: wrap;
+
+
+
+
+}
+.foot{
+   margin-left: 15px
+}
+.foot h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: navy;
+
+}
+.foot ul{
+    display: block;
+    list-style: none;
+}
+.foot ul li{
+    margin: 10px;
+}
+.foot ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#ffffff;
+}
+.second{
+    display: block;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+.second li{
+    list-style: none;
+    margin: 10px;
+
+
+}
+.second li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.cantact-lat{
+    margin-bottom: 20px;
+
+}
+.cantact-lat h1{
+
+
+    font-size: 28px;
+    color: navy;
+    font-weight: bold;
+
+}
+.cantact-lat li{
+
+    list-style: none;
+}
+.cantact-lat p{
+    margin-top: 15px;
+    color: #ffffff;
+}
+.map{
+
+}
+.map p{
+    margin-top:15px ;
+    color: #ffffff;
+}
+.map i{
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+.copypate{
+
+    height: 30px;
+    background-color:darkslategray;
+    padding: 10px;
+}
+.copypate p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+
+    color: #ffffff;
+
+
+}
